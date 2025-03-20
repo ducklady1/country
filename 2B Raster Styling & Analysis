@@ -1,0 +1,19 @@
+PRACTICAL 2
+B
+RASTER STYLING AND ANALYSIS
+Properties of layer>Symbology>Render type: Singleband pseudocolor
+min=0 max=240
+color ramp
+OK
+Go to Raster>Raster Calculator 
+output layer create Pop_Diff
+Output Crs- ESPG:4326
+select ag - g
+ok
+change color of pop_diff as well
+discrete
+Set values
+-20000 black
+-10 r
+10 g
+6000 blue
