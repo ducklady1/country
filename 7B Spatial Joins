@@ -1,0 +1,13 @@
+B
+
+layer -> add vector layer nybb.shp
+layer -> add vector layer -> OEM_NursingHomes_001
+
+vector 
+data management tools -> join attributes by locations
+go to fields to add then 3 dots
+then select all -> ok -> run -> close
+
+click on i icon identify features
+click on any dot or select some
+finish
