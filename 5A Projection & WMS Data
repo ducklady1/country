@@ -1,0 +1,11 @@
+layer>add layer>vector layer
+select 0_countried.zip
+layer>save as
+ESRI Shapefile
+My_Projected_World_map.shp createe bitch
+102008
+ok
+
+layer>add layer>add raster layer>(miniscale)_R17.tif from location
+Project properties>CRS
+27700
