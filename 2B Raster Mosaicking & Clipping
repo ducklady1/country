@@ -1,0 +1,16 @@
+C
+RASTER MOSAICKING AND CLIPPING
+Layer>Add Layer>Add Raster Layer
+add photo/file>India 1,2,3,4
+Go to Raster>Miscellaneous>Merge
+In input layers select India 1/2/3/4
+In merged select three dots>save to file 
+Create new in 2C Merge_Files.tif
+run deselect the other 4
+
+Layer>Add Vector Layer>select IND_adm0.shp
+then add border to it 
+Raster>Extraction>Clip Raster by Mask layer
+Input>Merge_Files
+Advanced Parameters new file Clipped_File.tif
+run
