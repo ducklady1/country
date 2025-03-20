@@ -1,0 +1,25 @@
+Practical 6
+A
+Georeferencing Topo Sheets and Scanned maps
+
+Layer>Add layer>Add vector layer
+Select IND_adm0.shp
+zoom to mumbai
+Plugins>Manage and Install Plugins
+Georeference GDAL must be checked
+
+Raster>Georeferencer
+File>Open Raster
+select file Bombay_1909.jpg
+settings>Transformation Settings
+
+Transformation type: Thin Plate Spline
+resampling method : nearest neighbour
+
+Target CRS: 4044
+
+Edit>Add Points
+Run
+
+Setting>Transformation settings
+opacity 38%
