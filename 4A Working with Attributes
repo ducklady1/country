@@ -1,0 +1,10 @@
+A
+Working with Attributes
+
+Layer>Add Layer>Add Vector Layer
+ne_10m_populated_places_simple.zip
+click on layer in layer panel>open attribute table
+use select feature expression button after choosing pop_max
+in expression
+pop_max>100 and pop_max<10000 and
+"sov0name"='India'
