@@ -1,0 +1,19 @@
+Practical 1 D
+Add layer>Add vector layer
+IND_rails.shp
+IND_adm0.shp
+then on adm select outer line double click 
+Open attribute table of rails
+in attribute table pencil then field calculator
+set output as Track_len(Decimal Number)
+len 10 precision 2
+function = Geometry
+set expression - $length/1000
+OK
+vector>analysis tools>basic statics for fields
+rails
+Track_Len
+three dots 
+save to file 
+output
+run
