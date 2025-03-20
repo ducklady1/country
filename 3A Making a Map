@@ -1,0 +1,33 @@
+PRACTICAL 3
+
+A
+Making a Map
+Layer>Add Vector Layer
+Select file IND_adm1.shp(INDIA)
+Select maharashtra_administrative.shp
+Select from all shp
+IND_adm1 add outline
+Project>New Print Layout 
+Give Practical_3A
+In Practical_3A Window
+Select Add Item>Add Map
+then render shift to right
+then zoom in main map
+again add map
+Give Frame to Map2
+In map 1(lock layers, lock styles for layers)
+Add Picture
+Then Add SVG Images(of north)
+
+MAP 1
+In overview click + 
+Add Map Frame to Map 2
+Add item>Add Label
+Set Mumbai Map and fix font size and stuff
+Add Item>Add Legend
+Add Item>Add Scale Bar
+Segments : left 1 & right 4
+Add Item>Add Label>Add a label using html rendering
+<h2>&copy; Copy Right Reserved</h2><br>
+<h1>BSCIT</h1>
+
