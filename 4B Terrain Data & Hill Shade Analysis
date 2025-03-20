@@ -1,0 +1,27 @@
+B
+Terrain Data and Hill shade analysis
+Layer>Add Raster Layer>gmted_mea300.tif
+//In coordinate 86.92,27.98
+//Scale 1;100000
+Raster>Extraction>Clip by Extent
+click clipping extent button
+85.602473051,88.102473051,26.502004561,28.214413350 [EPSG:4326]
+save temporary
+raster>Extraction>contour
+select clipped 
+100
+ELEV
+save temporary
+Go to layer properties
+Labels>Single labels
+Value ELEV
+Symbology>Single symbol
+Width: 0.20000
+contour click open attribute table
+click on search thingy
+
+install georeferencer
+Raster>analysis>Hillshade
+select clipped file
+save run 
+
