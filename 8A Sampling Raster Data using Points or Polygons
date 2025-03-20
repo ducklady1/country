@@ -1,0 +1,37 @@
+layer -> add raster layer 
+us.tmax_nohads wala ka tiff file and add it
+
+layer -> add delimited layer
+2013_Gaz_ua_national.txt 
+
+Choose Tab under Custom delimiter only . 
+INTPTLONG as X field  INTPTIAT as Y field. 
+layer setting tick only use spatial index
+ok
+
+plugins
+install point sampling tool
+
+again plugins 
+analyses -> point sampling tool
+
+layer containing sampling points:
+2013_Gaz_ua_national GEOID
+2013_Gaz_ua_national NAME
+us.tmax_nohads   Band 1
+max temp at urban locations.shp
+
+ok
+
+
+remove max_temp and 2013_gaz
+
+layer -> add vector layer 
+tl_2013_us_county.shp add 
+EPSG:4326 WGS84 projection
+
+
+tl_2013_us_county save as
+save as  counties.shp
+WGS 84
+select add saved file to map
