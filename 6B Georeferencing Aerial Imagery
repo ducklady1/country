@@ -1,0 +1,19 @@
+B
+Georeferencing Aerial Imagery
+
+Install plugin OpenStreetMap
+Web menu>Openlayerplugin>openstreetmap>OpenstreetMap
+Project>Properties>Set CRS to EPSG 3857
+View>Panels>select OSM Place Search
+
+SEarch gateway of india
+Choose one with mumbai
+
+
+Go to raster>Georeferencer
+File>Open Raster
+select file Gateway_Imagery.tig
+Edit>Add point
+select control points from map
+setting>transformation setting
+file>press button
