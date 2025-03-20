@@ -1,0 +1,36 @@
+A 
+Table Joins
+
+layer -> add vector layer ->
+tl_2013_06_tract.zip
+
+make new file using notepad
+name : ca_tracts_pop.csvt
+"String", "String", "String", "String", "String", 
+"Integer"
+
+
+layer -> add layer -> add delimited text layer
+
+custom delimiter 
+mark only semicolon and comma
+
+geometry definition
+no geometry
+add
+
+go to tl_2013_06_tract layer and its properties and go to joins
+click on plus
+
+
+join layer : ca_tracts_pop
+join field : GEO.id2
+target field : GEOID
+
+now go to symbology
+above value dropdown select graduated
+in value ca_tracts_pop_D1001
+color ramp : rockets
+
+mode: Equal Interval and classes=5
+click classify then apply and then add
