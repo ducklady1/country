@@ -1,0 +1,7 @@
+Practical 2
+
+A
+ADD RASTER AND CHOOSE FILE
+add layer>raster layer
+gl_gpwv3_pdens_90_ascii_one
+project>properties>CRS
