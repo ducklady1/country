@@ -1,0 +1,7 @@
+B
+IMPORTING SPREADSHEETS OR CSV FILES
+Go to layer>Add layer>Add Delimited text layer
+Delimited Text 
+Custom Delimiters(tab,colon,space)
+Geometry Definition (x:longitude,y:latitude)
+add
