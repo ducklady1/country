@@ -1,0 +1,22 @@
+layer -> add vector layer
+ne_10m_admin_0_countries.shp
+
+vector -> Geo processing tools -> dissolve
+
+dissolve fields -> select only continent
+dissolve name continent.shp
+
+go to select features -> select Africa
+right click on continent layer and save selection as 
+afica.shp
+select skip attribute 
+       add saved file to map
+ok
+
+processing -> toolbox -> vector overlay tools -> clip -> execute as batch process -> 
+select files : ne_10m_airports.shp, ne_10m_railroads.shp, ne_10m_ports.shp -> open
+then go to clipped layers -> select first save then
+autofill mode: fill with parameter values ok
+run 
+
+
