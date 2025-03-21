@@ -1,0 +1,23 @@
+layer -> add raster layer -> Christchurch Topo50 map.tif 
+go to properties -> pyramids -> resolution select all -> build pyramids  
+
+settings -> options -> digitizing
+default snap mode -> vertex and segment
+
+layer -> add spatialite layer
+location : MySpatialDataBase.sqlite
+ Name the Layer as Digitized_Road
+ Set Geometry type as line
+Set CRS EPSG:4167 - NZGD2000
+ok
+
+Add "Name" and "Class" fields using Add to Fields List
+
+click the Toggle Editing button to put the layer in editing mode
+add feature button click map canvas add new vertex
+
+pkuid autogenerate 
+name myroad
+class street
+
+similar step for making a polygon
